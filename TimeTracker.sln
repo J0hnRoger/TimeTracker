@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeTracker.TrayIcon", "Tim
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeTracker.CommandLine", "TimeTracker.CommandLine\TimeTracker.CommandLine.csproj", "{1B5C7214-7415-4C1F-9BA0-616C8A7161FE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeTracker.Api", "TimeTracker.Api\TimeTracker.Api.csproj", "{18208DBE-9641-4C24-BA0F-A755704FC169}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{1B5C7214-7415-4C1F-9BA0-616C8A7161FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B5C7214-7415-4C1F-9BA0-616C8A7161FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B5C7214-7415-4C1F-9BA0-616C8A7161FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18208DBE-9641-4C24-BA0F-A755704FC169}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18208DBE-9641-4C24-BA0F-A755704FC169}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18208DBE-9641-4C24-BA0F-A755704FC169}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18208DBE-9641-4C24-BA0F-A755704FC169}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -1,6 +1,8 @@
-﻿using System.IO.Pipes;
-using System.CommandLine;
+﻿using System.CommandLine;
 using System.CommandLine.NamingConventionBinder;
+using System.IO.Pipes;
+
+namespace TimeTracker.CommandLine;
 
 class Program
 {
