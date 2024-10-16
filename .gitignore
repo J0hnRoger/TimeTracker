@@ -4,4 +4,4 @@ obj/
 riderModule.iml
 /_ReSharper.Caches/
 .idea
-TimeTracker.Api/appsettings.json
+TimeTracker.Worker/appsettings.json
