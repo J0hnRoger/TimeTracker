@@ -1,14 +1,12 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeTracker.Worker", "TimeTracker.Worker\TimeTracker.Worker.csproj", "{ECDE03A8-2E65-475E-AE48-3D276EBDA75E}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeTracker.Tests", "TimeTracker.Tests\TimeTracker.Tests.csproj", "{F738DC1A-15B2-4846-BCDD-1C10B4620F0F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeTracker.TrayIcon", "TimeTracker.TrayIcon\TimeTracker.TrayIcon.csproj", "{8771881F-9489-4BEE-A7D9-E1AD1BA835B8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeTracker.CommandLine", "TimeTracker.CommandLine\TimeTracker.CommandLine.csproj", "{1B5C7214-7415-4C1F-9BA0-616C8A7161FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeTracker.Api", "TimeTracker.Api\TimeTracker.Api.csproj", "{18208DBE-9641-4C24-BA0F-A755704FC169}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeTracker.Worker", "TimeTracker.Worker\TimeTracker.Worker.csproj", "{18208DBE-9641-4C24-BA0F-A755704FC169}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -16,10 +14,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{ECDE03A8-2E65-475E-AE48-3D276EBDA75E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{ECDE03A8-2E65-475E-AE48-3D276EBDA75E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{ECDE03A8-2E65-475E-AE48-3D276EBDA75E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{ECDE03A8-2E65-475E-AE48-3D276EBDA75E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F738DC1A-15B2-4846-BCDD-1C10B4620F0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F738DC1A-15B2-4846-BCDD-1C10B4620F0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F738DC1A-15B2-4846-BCDD-1C10B4620F0F}.Release|Any CPU.ActiveCfg = Release|Any CPU

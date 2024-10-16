@@ -1,3 +1,4 @@
+
 namespace TimeTracker.Worker;
 
 public class WindowsBackgroundService : BackgroundService
@@ -17,12 +18,11 @@ public class WindowsBackgroundService : BackgroundService
     {
         try
         {
-            await _pipeServer.StartPipeServerAsync();
-            
             while (!stoppingToken.IsCancellationRequested)
             {
-                
-                await Task.Delay(TimeSpan.FromMinutes(1), stoppingToken);
+                // 1. Get All Tasks  
+                // 2. Update Local Timers
+                await Task.Delay(TimeSpan.FromSeconds(20), stoppingToken);
             }
         }
         catch (OperationCanceledException ex)
